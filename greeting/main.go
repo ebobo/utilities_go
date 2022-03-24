@@ -17,5 +17,5 @@ func Hello(name string) {
 
 //Foreword statement (string)
 func Foreword(words string) {
-	fmt.Printf("%s \nToday is %s \n", words, time.Now().Format("2006-January-02"))
+	fmt.Printf("Today is %s \n%s", time.Now().Format("2006-January-02"), words)
 }
